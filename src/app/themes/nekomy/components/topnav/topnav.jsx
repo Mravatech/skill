@@ -203,8 +203,9 @@ class TopNav extends Component {
                 : <Icon glyph={Help} className="icon info" />}
             </button>
             : ''}
+            {/* logo */}
 
-          <Link to="/" className="logo">
+          <Link to="/" className="">
             <Icon glyph={Logo} />
             <Icon glyph={LogoWording} className="icon logo-wording" />
           </Link>

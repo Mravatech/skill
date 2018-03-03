@@ -51,15 +51,15 @@ class Home extends Component {
           <div className="hero-content">
             <Icon glyph={Logo} className="logo" />
             <div className="slogan">
-              <div className="word word1">Open</div>
-              <div className="word word2">Realtime</div>
-              <div className="word word3">Education</div>
+              <div className="word word1">Welcome To</div>
+              <div className="word word2">SkillClique</div>
+              <div className="word word3">E-Learning Platform</div>
             </div>
           </div>
           <div className="elevator-pitch">
-            <p>Nekomy is an international learning platform. You can study anytime, anywhere and network with your classmates around the world! You can also earn money by uploading your courses...</p>
+            <p>SkillClique is an E-learning platform. You can study anytime, anywhere and network with your classmates around the world! You can also earn money by uploading your courses...</p>
             <p>
-              <button className="btn btn-primary">Upload your course now</button>
+              {/* <button className="btn btn-primary">Upload your course now</button> */}
             </p>
           </div>
           <div className="circle tooltip usa">JF<div className="spinner" />

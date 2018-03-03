@@ -6,6 +6,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const WebpackVersionFilePlugin = require('webpack-version-file-plugin');
 
+{
+  3000;
+}
 module.exports = (options) => {
   const ExtractSASS = new ExtractTextPlugin(`styles/${options.cssFileName}`);
   const VENDOR_LIBS = [
