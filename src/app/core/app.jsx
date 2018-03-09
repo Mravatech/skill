@@ -6,14 +6,14 @@ import _ from 'lodash';
 import Helmet from 'react-helmet';
 import { setUser, setUserData, changeViewport, setPanel, setNotification } from './actions/actions';
 import { USER_CONFIRM_EMAIL } from './constants/constants';
-import TopNav from '../themes/nekomy/components/topnav/topnav';
-import Loader from '../themes/nekomy/components/loader/loader';
-import Chat from '../themes/nekomy/components/chat/chat';
-import Calendar from '../themes/nekomy/components/calendar/calendar';
-import Grades from '../themes/nekomy/components/grades/grades';
-import Help from '../themes/nekomy/components/help/help';
-import Footer from '../themes/nekomy/components/footer/footer';
-import Notification from '../themes/nekomy/components/notification/notification';
+import TopNav from '../themes/avatech/components/topnav/topnav';
+import Loader from '../themes/avatech/components/loader/loader';
+import Chat from '../themes/avatech/components/chat/chat';
+import Calendar from '../themes/avatech/components/calendar/calendar';
+import Grades from '../themes/avatech/components/grades/grades';
+import Help from '../themes/avatech/components/help/help';
+import Footer from '../themes/avatech/components/footer/footer';
+import Notification from '../themes/avatech/components/notification/notification';
 
 const defaultProps = {
   breadcrumbs: []
@@ -58,9 +58,9 @@ class App extends Component {
     let title;
 
     if (!this.props.breadcrumbs[0]) {
-      title = 'Nekomy';
+      title = 'SkillClique';
     } else {
-      title = `${this.props.breadcrumbs.reverse().join(' < ')} < Nekomy`;
+      title = `${this.props.breadcrumbs.reverse().join(' < ')} < SkillClique`;
     }
 
     const panelClass = (this.props.panel === '')

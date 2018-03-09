@@ -1,40 +1,40 @@
 // Current theme common styles
-@import './themes/nekomy/styles/variables';
-@import './themes/nekomy/styles/mixins';
-@import './themes/nekomy/styles/utilities';
-@import './themes/nekomy/styles/elements';
-@import './themes/nekomy/styles/buttons';
-@import './themes/nekomy/styles/animations';
-@import './themes/nekomy/styles/cards';
-@import './themes/nekomy/styles/pages';
-@import './themes/nekomy/styles/global';
+@import './themes/avatech/styles/variables';
+@import './themes/avatech/styles/mixins';
+@import './themes/avatech/styles/utilities';
+@import './themes/avatech/styles/elements';
+@import './themes/avatech/styles/buttons';
+@import './themes/avatech/styles/animations';
+@import './themes/avatech/styles/cards';
+@import './themes/avatech/styles/pages';
+@import './themes/avatech/styles/global';
 
 // Current theme common component styles
-@import './themes/nekomy/components/topnav/topnav';
-@import './themes/nekomy/components/navigation/navigation';
-@import './themes/nekomy/components/breadcrumbs/breadcrumbs';
-@import './themes/nekomy/components/footer/footer';
-@import './themes/nekomy/components/search/search';
-@import './themes/nekomy/components/loader/loader';
-@import './themes/nekomy/components/chat/chat';
-@import './themes/nekomy/components/calendar/calendar';
-@import './themes/nekomy/components/grades/grades';
-@import './themes/nekomy/components/help/help';
-@import './themes/nekomy/components/notification/notification';
+@import './themes/avatech/components/topnav/topnav';
+@import './themes/avatech/components/navigation/navigation';
+@import './themes/avatech/components/breadcrumbs/breadcrumbs';
+@import './themes/avatech/components/footer/footer';
+@import './themes/avatech/components/search/search';
+@import './themes/avatech/components/loader/loader';
+@import './themes/avatech/components/chat/chat';
+@import './themes/avatech/components/calendar/calendar';
+@import './themes/avatech/components/grades/grades';
+@import './themes/avatech/components/help/help';
+@import './themes/avatech/components/notification/notification';
 
 // Current theme page styles
-@import './themes/nekomy/pages/home/home';
-@import './themes/nekomy/pages/dashboard/dashboard';
-@import './themes/nekomy/pages/notFound/notFound';
-@import './themes/nekomy/pages/account/notifications';
-@import './themes/nekomy/pages/account/settings';
-@import './themes/nekomy/pages/page/page';
-@import './themes/nekomy/pages/post/post';
-@import './themes/nekomy/pages/listing/listing';
-@import './themes/nekomy/pages/course/course';
-@import './themes/nekomy/pages/subject/subject';
-@import './themes/nekomy/pages/module/module';
-@import './themes/nekomy/pages/activity/activity';
+@import './themes/avatech/pages/home/home';
+@import './themes/avatech/pages/dashboard/dashboard';
+@import './themes/avatech/pages/notFound/notFound';
+@import './themes/avatech/pages/account/notifications';
+@import './themes/avatech/pages/account/settings';
+@import './themes/avatech/pages/page/page';
+@import './themes/avatech/pages/post/post';
+@import './themes/avatech/pages/listing/listing';
+@import './themes/avatech/pages/course/course';
+@import './themes/avatech/pages/subject/subject';
+@import './themes/avatech/pages/module/module';
+@import './themes/avatech/pages/activity/activity';
 
 // Core admin styles
 @import './core/admin/admin';
