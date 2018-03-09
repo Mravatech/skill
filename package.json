@@ -17,7 +17,8 @@
     "redux"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/avatech/skillclique"
   },
   "author": "SkillClique <hello@skillclique.com> (http://skillclique.com)",
   "license": "GPL-2.0",
